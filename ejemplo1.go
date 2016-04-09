@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-  fmt.Print("Ingrese una palabra: ")
+  fmt.Print(" Ingrese una palabra: ")
 
   var input string
 
