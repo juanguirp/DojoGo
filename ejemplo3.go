@@ -23,7 +23,7 @@ func main() {
   	37,34,83,27,
   	19,97, 9,17,
 	}
-	var menor int = 1000
+	var menor int = x[0]
 	for i := 0; i < 16; i++ {
 		if x[i] < menor {
 			menor = x[i]
