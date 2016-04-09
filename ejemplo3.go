@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func main() {
+	/* 
 	var x [5]float64
 	x[0] = 98
 	x[1] = 93
@@ -15,14 +16,29 @@ func main() {
 		total += x[i]
 	}
 	fmt.Println(total / 5)
+	*/
+	x := []int{
+  	48,96,86,68,
+  	57,82,63,70,
+  	37,34,83,27,
+  	19,97, 9,17,
+	}
+	var menor int = 1000
+	for i := 0; i < 16; i++ {
+		if x[i] < menor {
+			menor = x[i]
+		}
+	}
+	fmt.Println("El menor es:", menor)
 }
 
 /*EJERCICIO: Escribir un programa que encuentre el numero menor en el 
 siguiente arreglo y lo imprima:
-
 x := []int{
-  48,96,86,68,
-  57,82,63,70,
-  37,34,83,27,
-  19,97, 9,17,
-}*/
+  	48,96,86,68,
+  	57,82,63,70,
+  	37,34,83,27,
+  	19,97, 9,17,
+	}
+  EJERCICIO SUPERADO.
+*/
